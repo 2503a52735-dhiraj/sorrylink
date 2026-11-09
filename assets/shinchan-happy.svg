@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE0BD"/>
+      <stop offset="100%" stop-color="#FED0A8"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF416C"/>
+      <stop offset="100%" stop-color="#E50914"/>
+    </linearGradient>
+    <linearGradient id="shorts" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF200"/>
+      <stop offset="100%" stop-color="#FFD700"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse cx="150" cy="300" rx="90" ry="14" fill="#000000" opacity="0.12"/>
+
+  <!-- Shoes dancing -->
+  <ellipse cx="110" cy="285" rx="20" ry="12" fill="#FFEC3D" stroke="#333" stroke-width="3" transform="rotate(-15 110 285)"/>
+  <ellipse cx="190" cy="285" rx="20" ry="12" fill="#FFEC3D" stroke="#333" stroke-width="3" transform="rotate(15 190 285)"/>
+
+  <!-- Legs -->
+  <path d="M125 245 L110 280" stroke="#FFE0BD" stroke-width="20" stroke-linecap="round"/>
+  <path d="M175 245 L190 280" stroke="#FFE0BD" stroke-width="20" stroke-linecap="round"/>
+
+  <!-- Shorts -->
+  <path d="M100 215 Q150 220 200 215 L205 250 Q180 260 155 250 L150 245 L145 250 Q120 260 95 250 Z" fill="url(#shorts)" stroke="#333" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Shirt -->
+  <path d="M85 145 Q150 140 215 145 L220 225 Q150 235 80 225 Z" fill="url(#shirt)" stroke="#333" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Happy Dancing waving arms in victory -->
+  <path d="M85 160 Q60 120 70 85" fill="none" stroke="#E50914" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="70" cy="85" r="10" fill="#FFE0BD" stroke="#333" stroke-width="3"/>
+
+  <path d="M215 160 Q240 120 230 85" fill="none" stroke="#E50914" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="230" cy="85" r="10" fill="#FFE0BD" stroke="#333" stroke-width="3"/>
+
+  <!-- Head -->
+  <path d="M75 95 Q150 15 225 95 Q235 115 225 135 Q150 145 75 135 Z" fill="#1A1A1A"/>
+  <path d="M80 105 Q90 45 150 45 Q215 45 225 105 Q235 145 215 160 Q185 170 150 170 Q95 170 80 135 Q75 120 80 105 Z" fill="url(#skin)" stroke="#333" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Ears -->
+  <ellipse cx="78" cy="115" rx="9" ry="12" fill="#FFE0BD" stroke="#333" stroke-width="3"/>
+  <ellipse cx="222" cy="115" rx="9" ry="12" fill="#FFE0BD" stroke="#333" stroke-width="3"/>
+
+  <!-- Eyebrows (high curved joyful) -->
+  <path d="M95 85 Q115 70 135 82" fill="#1A1A1A" stroke="#1A1A1A" stroke-width="10" stroke-linecap="round"/>
+  <path d="M205 85 Q185 70 165 82" fill="#1A1A1A" stroke="#1A1A1A" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Heart Eyes! -->
+  <g transform="translate(108, 100) scale(0.8)">
+    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="#E91E63"/>
+  </g>
+  <g transform="translate(168, 100) scale(0.8)">
+    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="#E91E63"/>
+  </g>
+
+  <!-- Big happy smile -->
+  <path d="M130 135 Q150 165 170 135 Z" fill="#900C3F" stroke="#333" stroke-width="3"/>
+  <ellipse cx="150" cy="148" rx="10" ry="6" fill="#FF7597"/>
+
+  <!-- Blushing cheeks -->
+  <ellipse cx="98" cy="132" rx="14" ry="8" fill="#FF4081" opacity="0.45"/>
+  <ellipse cx="202" cy="132" rx="14" ry="8" fill="#FF4081" opacity="0.45"/>
+
+  <!-- Floating hearts and sparkles -->
+  <path d="M45 50 C45 42 55 35 62 42 C69 35 79 42 79 50 C79 62 62 72 62 72 C62 72 45 62 45 50 Z" fill="#FF4081"/>
+  <path d="M225 45 C225 37 235 30 242 37 C249 30 259 37 259 45 C259 57 242 67 242 67 C242 67 225 57 225 45 Z" fill="#FF4081"/>
+  <circle cx="150" cy="20" r="4" fill="#FFD700"/>
+  <circle cx="130" cy="30" r="2.5" fill="#FF69B4"/>
+  <circle cx="170" cy="30" r="2.5" fill="#FF69B4"/>
+</svg>
+

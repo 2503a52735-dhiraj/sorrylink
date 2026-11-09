@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 340" width="100%" height="100%">
+  <defs>
+    <radialGradient id="teddy-body" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#E2A76F"/>
+      <stop offset="70%" stop-color="#C68642"/>
+      <stop offset="100%" stop-color="#A56326"/>
+    </radialGradient>
+    <radialGradient id="teddy-snout" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#FFF2E2"/>
+      <stop offset="100%" stop-color="#F3DCBE"/>
+    </radialGradient>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="160" cy="320" rx="90" ry="14" fill="#000000" opacity="0.12"/>
+
+  <!-- Feet -->
+  <ellipse cx="95" cy="295" rx="34" ry="24" fill="url(#teddy-body)" stroke="#8D4C13" stroke-width="2.5"/>
+  <ellipse cx="95" cy="295" rx="20" ry="14" fill="#F3DCBE"/>
+  <ellipse cx="225" cy="295" rx="34" ry="24" fill="url(#teddy-body)" stroke="#8D4C13" stroke-width="2.5"/>
+  <ellipse cx="225" cy="295" rx="20" ry="14" fill="#F3DCBE"/>
+
+  <!-- Body -->
+  <ellipse cx="160" cy="215" rx="75" ry="70" fill="url(#teddy-body)" stroke="#8D4C13" stroke-width="2.5"/>
+
+  <!-- Sad Teddy Ears drooped slightly -->
+  <circle cx="95" cy="88" r="28" fill="url(#teddy-body)" stroke="#8D4C13" stroke-width="2.5"/>
+  <circle cx="95" cy="88" r="16" fill="#F3DCBE"/>
+
+  <circle cx="225" cy="88" r="28" fill="url(#teddy-body)" stroke="#8D4C13" stroke-width="2.5"/>
+  <circle cx="225" cy="88" r="16" fill="#F3DCBE"/>
+
+  <!-- Head -->
+  <circle cx="160" cy="118" r="65" fill="url(#teddy-body)" stroke="#8D4C13" stroke-width="2.5"/>
+
+  <!-- Snout -->
+  <ellipse cx="160" cy="133" rx="30" ry="24" fill="url(#teddy-snout)"/>
+
+  <!-- Nose -->
+  <path d="M150 123 Q160 118 170 123 Q160 138 150 123 Z" fill="#5D3A1A"/>
+  <!-- Sad pouting mouth -->
+  <path d="M160 132 L160 140" stroke="#5D3A1A" stroke-width="2.5"/>
+  <path d="M150 146 Q160 138 170 146" fill="none" stroke="#5D3A1A" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Sad Puppy Eyes with big tears -->
+  <circle cx="132" cy="110" r="9" fill="#2E1C0C"/>
+  <circle cx="129" cy="106" r="3.5" fill="#FFFFFF"/>
+  <circle cx="134" cy="112" r="1.5" fill="#FFFFFF"/>
+
+  <circle cx="188" cy="110" r="9" fill="#2E1C0C"/>
+  <circle cx="185" cy="106" r="3.5" fill="#FFFFFF"/>
+  <circle cx="190" cy="112" r="1.5" fill="#FFFFFF"/>
+
+  <!-- Eyebrows (sad slanting up in middle) -->
+  <path d="M124 100 Q132 94 140 102" fill="none" stroke="#8D4C13" stroke-width="3" stroke-linecap="round"/>
+  <path d="M196 100 Q188 94 180 102" fill="none" stroke="#8D4C13" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Big Tear Drops -->
+  <path d="M120 118 C120 126 112 138 112 138 C112 138 104 126 104 118 C104 112 108 108 112 108 C116 108 120 112 120 118 Z" fill="#64B5F6" opacity="0.9"/>
+  <path d="M208 120 C208 130 216 142 216 142 C216 142 224 130 224 120 C224 114 220 110 216 110 C212 110 208 114 208 120 Z" fill="#64B5F6" opacity="0.9"/>
+
+  <!-- Hands holding a bandaged heart sign -->
+  <g transform="translate(60, 185)" filter="url(#soft)">
+    <rect x="0" y="0" width="200" height="70" rx="14" fill="#FFFFFF" stroke="#FF80AB" stroke-width="2"/>
+    <text x="100" y="28" font-family="'Comic Sans MS', sans-serif" font-weight="bold" font-size="14" fill="#D81B60" text-anchor="middle">
+      I made you suffer... 💔
+    </text>
+    <text x="100" y="52" font-family="'Comic Sans MS', sans-serif" font-size="12" fill="#555" text-anchor="middle">
+      Please forgive me, Sri Pavani 🥺
+    </text>
+  </g>
+
+  <!-- Paws holding sign -->
+  <circle cx="65" cy="210" r="14" fill="#F3DCBE" stroke="#8D4C13" stroke-width="2"/>
+  <circle cx="255" cy="210" r="14" fill="#F3DCBE" stroke="#8D4C13" stroke-width="2"/>
+</svg>
+

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE0BD"/>
+      <stop offset="100%" stop-color="#FED0A8"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF416C"/>
+      <stop offset="100%" stop-color="#E50914"/>
+    </linearGradient>
+    <linearGradient id="shorts" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF200"/>
+      <stop offset="100%" stop-color="#FFD700"/>
+    </linearGradient>
+    <linearGradient id="tears" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#64B5F6"/>
+      <stop offset="100%" stop-color="#2196F3"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse cx="150" cy="300" rx="90" ry="14" fill="#000000" opacity="0.12"/>
+
+  <!-- Shoes -->
+  <ellipse cx="115" cy="290" rx="22" ry="11" fill="#FFEC3D" stroke="#333" stroke-width="3"/>
+  <ellipse cx="185" cy="290" rx="22" ry="11" fill="#FFEC3D" stroke="#333" stroke-width="3"/>
+
+  <!-- Legs -->
+  <path d="M120 250 L115 285" stroke="#FFE0BD" stroke-width="20" stroke-linecap="round"/>
+  <path d="M180 250 L185 285" stroke="#FFE0BD" stroke-width="20" stroke-linecap="round"/>
+
+  <!-- Shorts -->
+  <path d="M100 220 Q150 225 200 220 L205 255 Q180 265 155 255 L150 250 L145 255 Q120 265 95 255 Z" fill="url(#shorts)" stroke="#333" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Shirt -->
+  <path d="M85 150 Q150 145 215 150 L220 230 Q150 240 80 230 Z" fill="url(#shirt)" stroke="#333" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Arms up flailing in distress -->
+  <path d="M85 160 Q60 140 65 110" fill="none" stroke="#E50914" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="65" cy="110" r="10" fill="#FFE0BD" stroke="#333" stroke-width="3"/>
+  
+  <path d="M215 160 Q240 140 235 110" fill="none" stroke="#E50914" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="235" cy="110" r="10" fill="#FFE0BD" stroke="#333" stroke-width="3"/>
+
+  <!-- Head -->
+  <path d="M75 100 Q150 20 225 100 Q235 120 225 140 Q150 150 75 140 Z" fill="#1A1A1A"/>
+  <path d="M80 110 Q90 50 150 50 Q215 50 225 110 Q235 150 215 165 Q185 175 150 175 Q95 175 80 140 Q75 125 80 110 Z" fill="url(#skin)" stroke="#333" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Ears -->
+  <ellipse cx="78" cy="120" rx="9" ry="12" fill="#FFE0BD" stroke="#333" stroke-width="3"/>
+  <ellipse cx="222" cy="120" rx="9" ry="12" fill="#FFE0BD" stroke="#333" stroke-width="3"/>
+
+  <!-- Eyebrows (wobbly crying) -->
+  <path d="M95 90 Q115 105 135 95" fill="#1A1A1A" stroke="#1A1A1A" stroke-width="10" stroke-linecap="round"/>
+  <path d="M205 90 Q185 105 165 95" fill="#1A1A1A" stroke="#1A1A1A" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Crying closed tight eyes > < -->
+  <path d="M110 115 L125 125 L110 135" fill="none" stroke="#333" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M190 115 L175 125 L190 135" fill="none" stroke="#333" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Massive Anime Waterfall Tears -->
+  <path d="M115 128 C100 135 60 180 50 250 C45 285 70 290 75 250 C80 200 115 150 120 132 Z" fill="url(#tears)" opacity="0.85"/>
+  <path d="M185 128 C200 135 240 180 250 250 C255 285 230 290 225 250 C220 200 185 150 180 132 Z" fill="url(#tears)" opacity="0.85"/>
+
+  <!-- Splash droplets -->
+  <circle cx="45" cy="270" r="5" fill="#2196F3" opacity="0.8"/>
+  <circle cx="35" cy="285" r="4" fill="#64B5F6" opacity="0.8"/>
+  <circle cx="255" cy="270" r="5" fill="#2196F3" opacity="0.8"/>
+  <circle cx="265" cy="285" r="4" fill="#64B5F6" opacity="0.8"/>
+
+  <!-- Wide open wailing mouth: "Waaaaah Sri Pavani please forgive!" -->
+  <path d="M130 145 Q150 138 170 145 Q175 175 150 175 Q125 175 130 145 Z" fill="#900C3F" stroke="#333" stroke-width="3"/>
+  <!-- Tongue -->
+  <path d="M138 165 Q150 155 162 165 Q150 178 138 165 Z" fill="#FF7597"/>
+
+  <!-- Blushing cheeks -->
+  <ellipse cx="98" cy="142" rx="12" ry="7" fill="#FF4081" opacity="0.4"/>
+  <ellipse cx="202" cy="142" rx="12" ry="7" fill="#FF4081" opacity="0.4"/>
+</svg>
+

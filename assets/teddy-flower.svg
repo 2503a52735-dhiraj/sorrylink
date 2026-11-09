@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 340" width="100%" height="100%">
+  <defs>
+    <radialGradient id="teddy-body" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#E2A76F"/>
+      <stop offset="70%" stop-color="#C68642"/>
+      <stop offset="100%" stop-color="#A56326"/>
+    </radialGradient>
+    <radialGradient id="teddy-snout" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#FFF2E2"/>
+      <stop offset="100%" stop-color="#F3DCBE"/>
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="160" cy="320" rx="90" ry="14" fill="#000000" opacity="0.12"/>
+
+  <!-- Feet -->
+  <ellipse cx="95" cy="295" rx="34" ry="24" fill="url(#teddy-body)" stroke="#8D4C13" stroke-width="2.5"/>
+  <ellipse cx="95" cy="295" rx="20" ry="14" fill="#F3DCBE"/>
+  <ellipse cx="225" cy="295" rx="34" ry="24" fill="url(#teddy-body)" stroke="#8D4C13" stroke-width="2.5"/>
+  <ellipse cx="225" cy="295" rx="20" ry="14" fill="#F3DCBE"/>
+
+  <!-- Body -->
+  <ellipse cx="160" cy="215" rx="75" ry="70" fill="url(#teddy-body)" stroke="#8D4C13" stroke-width="2.5"/>
+
+  <!-- Bouquet of Flowers held in front -->
+  <!-- Flower Stems -->
+  <path d="M160 260 L140 180" stroke="#4CAF50" stroke-width="5" stroke-linecap="round"/>
+  <path d="M160 260 L160 175" stroke="#388E3C" stroke-width="5" stroke-linecap="round"/>
+  <path d="M160 260 L180 180" stroke="#4CAF50" stroke-width="5" stroke-linecap="round"/>
+  <!-- Wrapper -->
+  <path d="M130 220 L160 280 L190 220 Z" fill="#FFE0B2" stroke="#FFA726" stroke-width="2"/>
+  <circle cx="160" cy="245" r="6" fill="#FF4081"/>
+
+  <!-- Rose / Blossom 1 (Left) -->
+  <circle cx="135" cy="180" r="16" fill="#FF5252"/>
+  <circle cx="135" cy="180" r="10" fill="#FF1744"/>
+  <circle cx="135" cy="180" r="5" fill="#D50000"/>
+
+  <!-- Rose / Blossom 2 (Center) -->
+  <circle cx="160" cy="165" r="18" fill="#FF4081"/>
+  <circle cx="160" cy="165" r="11" fill="#F50057"/>
+  <circle cx="160" cy="165" r="5" fill="#C51162"/>
+
+  <!-- Rose / Blossom 3 (Right) -->
+  <circle cx="185" cy="180" r="16" fill="#FF5252"/>
+  <circle cx="185" cy="180" r="10" fill="#FF1744"/>
+  <circle cx="185" cy="180" r="5" fill="#D50000"/>
+
+  <!-- Paws holding bouquet -->
+  <circle cx="130" cy="230" r="14" fill="#F3DCBE" stroke="#8D4C13" stroke-width="2"/>
+  <circle cx="190" cy="230" r="14" fill="#F3DCBE" stroke="#8D4C13" stroke-width="2"/>
+
+  <!-- Ears -->
+  <circle cx="95" cy="80" r="28" fill="url(#teddy-body)" stroke="#8D4C13" stroke-width="2.5"/>
+  <circle cx="95" cy="80" r="16" fill="#F3DCBE"/>
+  <circle cx="225" cy="80" r="28" fill="url(#teddy-body)" stroke="#8D4C13" stroke-width="2.5"/>
+  <circle cx="225" cy="80" r="16" fill="#F3DCBE"/>
+
+  <!-- Head -->
+  <circle cx="160" cy="115" r="65" fill="url(#teddy-body)" stroke="#8D4C13" stroke-width="2.5"/>
+
+  <!-- Snout -->
+  <ellipse cx="160" cy="130" rx="30" ry="24" fill="url(#teddy-snout)"/>
+  <path d="M150 120 Q160 115 170 120 Q160 135 150 120 Z" fill="#5D3A1A"/>
+  <path d="M160 128 L160 138" stroke="#5D3A1A" stroke-width="2.5"/>
+  <path d="M150 138 Q160 146 170 138" fill="none" stroke="#5D3A1A" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Eyes with sweet glossy reflection -->
+  <circle cx="132" cy="108" r="8" fill="#2E1C0C"/>
+  <circle cx="130" cy="105" r="3" fill="#FFFFFF"/>
+  <circle cx="188" cy="108" r="8" fill="#2E1C0C"/>
+  <circle cx="186" cy="105" r="3" fill="#FFFFFF"/>
+
+  <!-- Rosy cheeks -->
+  <ellipse cx="118" cy="126" rx="10" ry="6" fill="#FF80AB" opacity="0.6"/>
+  <ellipse cx="202" cy="126" rx="10" ry="6" fill="#FF80AB" opacity="0.6"/>
+</svg>
+

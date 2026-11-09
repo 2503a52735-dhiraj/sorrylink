@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320" width="100%" height="100%">
+  <defs>
+    <filter id="soft-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#ff8fab" flood-opacity="0.3"/>
+    </filter>
+    <linearGradient id="skin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE0BD"/>
+      <stop offset="100%" stop-color="#FED0A8"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF416C"/>
+      <stop offset="100%" stop-color="#E50914"/>
+    </linearGradient>
+    <linearGradient id="shorts" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF200"/>
+      <stop offset="100%" stop-color="#FFD700"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Ground shadow -->
+  <ellipse cx="150" cy="300" rx="90" ry="14" fill="#000000" opacity="0.12"/>
+
+  <!-- Body / Limbs -->
+  <!-- Shoes -->
+  <ellipse cx="115" cy="290" rx="22" ry="11" fill="#FFEC3D" stroke="#333" stroke-width="3"/>
+  <ellipse cx="185" cy="290" rx="22" ry="11" fill="#FFEC3D" stroke="#333" stroke-width="3"/>
+
+  <!-- Legs -->
+  <path d="M120 250 L115 285" stroke="#FFE0BD" stroke-width="20" stroke-linecap="round"/>
+  <path d="M180 250 L185 285" stroke="#FFE0BD" stroke-width="20" stroke-linecap="round"/>
+
+  <!-- Shorts -->
+  <path d="M100 220 Q150 225 200 220 L205 255 Q180 265 155 255 L150 250 L145 255 Q120 265 95 255 Z" fill="url(#shorts)" stroke="#333" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Shirt -->
+  <path d="M85 150 Q150 145 215 150 L220 230 Q150 240 80 230 Z" fill="url(#shirt)" stroke="#333" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Arms folded in begging / apology pose (Gomen nasai) -->
+  <path d="M85 170 Q110 200 135 195" fill="none" stroke="#E50914" stroke-width="18" stroke-linecap="round"/>
+  <path d="M215 170 Q190 200 165 195" fill="none" stroke="#E50914" stroke-width="18" stroke-linecap="round"/>
+  <!-- Hands clasped together in prayer/begging -->
+  <ellipse cx="150" cy="195" rx="16" ry="14" fill="#FFE0BD" stroke="#333" stroke-width="3"/>
+  <circle cx="145" cy="193" r="5" fill="#FFE0BD"/>
+  <circle cx="155" cy="193" r="5" fill="#FFE0BD"/>
+
+  <!-- Shinchan Head with characteristic potato shape -->
+  <!-- Hair back -->
+  <path d="M75 100 Q150 20 225 100 Q235 120 225 140 Q150 150 75 140 Z" fill="#1A1A1A"/>
+  
+  <!-- Face shape -->
+  <path d="M80 110 Q90 50 150 50 Q215 50 225 110 Q235 150 215 165 Q185 175 150 175 Q95 175 80 140 Q75 125 80 110 Z" fill="url(#skin)" stroke="#333" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Ears -->
+  <ellipse cx="78" cy="120" rx="9" ry="12" fill="#FFE0BD" stroke="#333" stroke-width="3"/>
+  <ellipse cx="222" cy="120" rx="9" ry="12" fill="#FFE0BD" stroke="#333" stroke-width="3"/>
+
+  <!-- Hair front spikes / contour -->
+  <path d="M80 100 Q110 65 150 65 Q190 65 220 100 Q205 75 150 70 Q95 75 80 100 Z" fill="#1A1A1A"/>
+
+  <!-- Thick Eyebrows (Apologetic droop) -->
+  <path d="M95 100 Q120 85 135 102" fill="#1A1A1A" stroke="#1A1A1A" stroke-width="10" stroke-linecap="round"/>
+  <path d="M205 100 Q180 85 165 102" fill="#1A1A1A" stroke="#1A1A1A" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Puppy Eyes with glossy sad reflection -->
+  <!-- Left Eye -->
+  <ellipse cx="120" cy="122" rx="14" ry="18" fill="#1A1A1A"/>
+  <circle cx="116" cy="116" r="6" fill="#FFFFFF"/>
+  <circle cx="123" cy="128" r="3" fill="#FFFFFF"/>
+  <!-- Right Eye -->
+  <ellipse cx="180" cy="122" rx="14" ry="18" fill="#1A1A1A"/>
+  <circle cx="176" cy="116" r="6" fill="#FFFFFF"/>
+  <circle cx="183" cy="128" r="3" fill="#FFFFFF"/>
+
+  <!-- Cute watery tear drops -->
+  <path d="M106 130 C106 138 98 145 98 145 C98 145 92 138 92 130 C92 125 96 122 100 122 C104 122 106 125 106 130 Z" fill="#64B5F6" opacity="0.85"/>
+  <path d="M206 130 C206 138 212 145 212 145 C212 145 218 138 218 130 C218 125 214 122 210 122 C206 122 206 125 206 130 Z" fill="#64B5F6" opacity="0.85"/>
+
+  <!-- Soft Pink Cheeks (Blushing) -->
+  <ellipse cx="98" cy="138" rx="15" ry="9" fill="#FF4081" opacity="0.35"/>
+  <ellipse cx="202" cy="138" rx="15" ry="9" fill="#FF4081" opacity="0.35"/>
+  <!-- Blush lines -->
+  <line x1="92" y1="137" x2="104" y2="137" stroke="#E91E63" stroke-width="2"/>
+  <line x1="94" y1="141" x2="102" y2="141" stroke="#E91E63" stroke-width="2"/>
+  <line x1="196" y1="137" x2="208" y2="137" stroke="#E91E63" stroke-width="2"/>
+  <line x1="198" y1="141" x2="206" y2="141" stroke="#E91E63" stroke-width="2"/>
+
+  <!-- Pouting sad mouth -->
+  <path d="M140 148 Q150 142 160 148" fill="none" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Sign held in front or floating banner -->
+  <g transform="translate(40, 220)" filter="url(#soft-shadow)">
+    <rect x="0" y="0" width="220" height="42" rx="12" fill="#FFFFFF" stroke="#FF4081" stroke-width="2.5"/>
+    <text x="110" y="26" font-family="'Comic Sans MS', 'Chalkboard', cursive, sans-serif" font-weight="bold" font-size="15" fill="#E50914" text-anchor="middle">
+      Gomen Pavani! 🥺🙏
+    </text>
+  </g>
+</svg>
+

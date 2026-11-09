@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 340" width="100%" height="100%">
+  <defs>
+    <!-- Fur Gradients -->
+    <radialGradient id="teddy-body" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#E2A76F"/>
+      <stop offset="70%" stop-color="#C68642"/>
+      <stop offset="100%" stop-color="#A56326"/>
+    </radialGradient>
+    <radialGradient id="teddy-snout" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#FFF2E2"/>
+      <stop offset="100%" stop-color="#F3DCBE"/>
+    </radialGradient>
+    <linearGradient id="heart-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF5E7E"/>
+      <stop offset="50%" stop-color="#E91E63"/>
+      <stop offset="100%" stop-color="#C2185B"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#FF4081" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Shadow -->
+  <ellipse cx="160" cy="320" rx="90" ry="14" fill="#000000" opacity="0.12"/>
+
+  <!-- Feet / Paws -->
+  <!-- Left Foot -->
+  <ellipse cx="95" cy="295" rx="34" ry="24" fill="url(#teddy-body)" stroke="#8D4C13" stroke-width="2.5"/>
+  <ellipse cx="95" cy="295" rx="20" ry="14" fill="#F3DCBE"/>
+  <circle cx="85" cy="285" r="4.5" fill="#C68642"/>
+  <circle cx="95" cy="281" r="4.5" fill="#C68642"/>
+  <circle cx="105" cy="285" r="4.5" fill="#C68642"/>
+
+  <!-- Right Foot -->
+  <ellipse cx="225" cy="295" rx="34" ry="24" fill="url(#teddy-body)" stroke="#8D4C13" stroke-width="2.5"/>
+  <ellipse cx="225" cy="295" rx="20" ry="14" fill="#F3DCBE"/>
+  <circle cx="215" cy="285" r="4.5" fill="#C68642"/>
+  <circle cx="225" cy="281" r="4.5" fill="#C68642"/>
+  <circle cx="235" cy="285" r="4.5" fill="#C68642"/>
+
+  <!-- Teddy Body -->
+  <ellipse cx="160" cy="215" rx="75" ry="70" fill="url(#teddy-body)" stroke="#8D4C13" stroke-width="2.5"/>
+
+  <!-- Big Red Plush Heart held by Teddy -->
+  <g filter="url(#glow)">
+    <path d="M160 185 C145 130 80 130 75 185 C70 235 140 270 160 285 C180 270 250 235 245 185 C240 130 175 130 160 185 Z" fill="url(#heart-grad)"/>
+    <!-- Heart sheen -->
+    <path d="M100 155 C120 145 145 155 140 165 C135 175 110 165 100 155 Z" fill="#FFFFFF" opacity="0.45"/>
+    <text x="160" y="210" font-family="'Pacifico', 'Brush Script MT', 'Dancing Script', cursive, sans-serif" font-weight="bold" font-size="22" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">
+      Sri Pavani
+    </text>
+    <text x="160" y="235" font-family="'Comic Sans MS', sans-serif" font-size="12" fill="#FFE4E9" text-anchor="middle" font-weight="600">
+      ❤️ Forgive Me? ❤️
+    </text>
+  </g>
+
+  <!-- Teddy Paws hugging the heart -->
+  <!-- Left arm & paw -->
+  <path d="M85 190 Q95 220 120 225" stroke="url(#teddy-body)" stroke-width="26" stroke-linecap="round"/>
+  <circle cx="122" cy="225" r="14" fill="#F3DCBE" stroke="#8D4C13" stroke-width="2"/>
+
+  <!-- Right arm & paw -->
+  <path d="M235 190 Q225 220 198 225" stroke="url(#teddy-body)" stroke-width="26" stroke-linecap="round"/>
+  <circle cx="198" cy="225" r="14" fill="#F3DCBE" stroke="#8D4C13" stroke-width="2"/>
+
+  <!-- Teddy Head -->
+  <!-- Ears -->
+  <circle cx="95" cy="80" r="28" fill="url(#teddy-body)" stroke="#8D4C13" stroke-width="2.5"/>
+  <circle cx="95" cy="80" r="16" fill="#F3DCBE"/>
+
+  <circle cx="225" cy="80" r="28" fill="url(#teddy-body)" stroke="#8D4C13" stroke-width="2.5"/>
+  <circle cx="225" cy="80" r="16" fill="#F3DCBE"/>
+
+  <!-- Head Base -->
+  <circle cx="160" cy="115" r="65" fill="url(#teddy-body)" stroke="#8D4C13" stroke-width="2.5"/>
+
+  <!-- Snout / Muzzle -->
+  <ellipse cx="160" cy="130" rx="30" ry="24" fill="url(#teddy-snout)"/>
+
+  <!-- Nose -->
+  <path d="M150 120 Q160 115 170 120 Q160 135 150 120 Z" fill="#5D3A1A"/>
+  <!-- Smile line -->
+  <path d="M160 128 L160 138" stroke="#5D3A1A" stroke-width="2.5"/>
+  <path d="M150 138 Q160 146 170 138" fill="none" stroke="#5D3A1A" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Eyes with sweet glossy reflection -->
+  <!-- Left Eye -->
+  <circle cx="132" cy="108" r="8" fill="#2E1C0C"/>
+  <circle cx="130" cy="105" r="3" fill="#FFFFFF"/>
+  <circle cx="134" cy="110" r="1.5" fill="#FFFFFF"/>
+  <!-- Right Eye -->
+  <circle cx="188" cy="108" r="8" fill="#2E1C0C"/>
+  <circle cx="186" cy="105" r="3" fill="#FFFFFF"/>
+  <circle cx="190" cy="110" r="1.5" fill="#FFFFFF"/>
+
+  <!-- Eyebrows (gentle pleading tilt) -->
+  <path d="M124 96 Q134 92 142 98" fill="none" stroke="#8D4C13" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M196 96 Q186 92 178 98" fill="none" stroke="#8D4C13" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Rosy cheeks -->
+  <ellipse cx="118" cy="126" rx="10" ry="6" fill="#FF80AB" opacity="0.5"/>
+  <ellipse cx="202" cy="126" rx="10" ry="6" fill="#FF80AB" opacity="0.5"/>
+
+  <!-- Bow tie under chin -->
+  <path d="M142 165 L160 172 L142 179 Z" fill="#FF4081"/>
+  <path d="M178 165 L160 172 L178 179 Z" fill="#FF4081"/>
+  <circle cx="160" cy="172" r="5" fill="#E91E63"/>
+</svg>
+

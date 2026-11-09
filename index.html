@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>I am so sorry, Sri Pavani... 🥺❤️</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧸</text></svg>">
+</head>
+<body>
+
+  <!-- Floating Canvas for background hearts, sakura & sparkles -->
+  <canvas id="canvas-particles"></canvas>
+
+  <!-- Top Navigation & Music Controls -->
+  <header class="top-nav">
+    <button id="music-toggle-btn" class="nav-btn" onclick="toggleMusic()">
+      🎵 Play Gentle Music
+    </button>
+  </header>
+
+  <!-- Cute Floating Stickers on sides -->
+  <img src="assets/teddy-heart.svg" class="side-sticker sticker-left-1" alt="Teddy Bear" onclick="spawnFloatingHeart(event.clientX, event.clientY)">
+  <img src="assets/shinchan-sorry.svg" class="side-sticker sticker-left-2" alt="Shinchan Sorry" onclick="spawnFloatingHeart(event.clientX, event.clientY)">
+  <img src="assets/shinchan-happy.svg" class="side-sticker sticker-right-1" alt="Shinchan" onclick="spawnFloatingHeart(event.clientX, event.clientY)">
+  <img src="assets/teddy-flower.svg" class="side-sticker sticker-right-2" alt="Teddy Flower" onclick="spawnFloatingHeart(event.clientX, event.clientY)">
+
+  <!-- Main Container -->
+  <main class="container">
+
+    <!-- ====================================================================
+         HERO SECTION
+         ==================================================================== -->
+    <section class="hero-section">
+      <div class="hero-badge">
+        <span>🧸 Teddy Bears & Shinchan are on an Apology Mission</span>
+      </div>
+
+      <h1 class="hero-title">
+        I Am So Deeply Sorry,<br>
+        <span class="name-highlight">Sri Pavani</span>
+      </h1>
+
+      <p class="hero-subtitle">
+        I know I have made you suffer so much, and seeing you hurt because of my mistakes completely breaks my heart. I built this special cozy world filled with your favorite teddy bears and Shinchan, hoping to bring back your sweetest smile.
+      </p>
+
+      <!-- Duo Character Stage -->
+      <div class="character-stage">
+        <!-- Shinchan Begging Card -->
+        <div class="char-card">
+          <img src="assets/shinchan-sorry.svg" alt="Shinchan Saying Sorry" class="char-img">
+          <div class="char-caption">Shinchan's Humble Apology</div>
+          <div class="char-sub">"Pavani Didi, please don't be mad at him... look how sad he is! 🥺"</div>
+        </div>
+
+        <!-- Fluffy Teddy Bear Card -->
+        <div class="char-card">
+          <img src="assets/teddy-heart.svg" alt="Teddy Bear Holding Heart" class="char-img">
+          <div class="char-caption">Sri Pavani's Teddy Bear</div>
+          <div class="char-sub">Holding my whole heart with your name on it forever. ❤️</div>
+        </div>
+      </div>
+
+      <!-- Quick Action Buttons -->
+      <div class="hero-cta-group">
+        <a href="#letter-section" class="cta-btn primary">
+          💌 Read My Sincere Letter
+        </a>
+        <a href="#hug-section" class="cta-btn secondary">
+          🧸 Collect Free Teddy Hugs
+        </a>
+        <a href="#promises-section" class="cta-btn secondary">
+          📜 See My Promises
+        </a>
+        <a href="#forgive-section" class="cta-btn primary">
+          🥺 Can You Forgive Me?
+        </a>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         APOLOGY LETTER SECTION
+         ==================================================================== -->
+    <section id="letter-section" class="content-section">
+      <div class="section-header">
+        <span class="section-tag">Straight From The Heart</span>
+        <h2 class="section-title">A Letter Dedicated To Sri Pavani</h2>
+        <p class="section-desc">Words cannot undo the pain I caused, but every single line here is 100% genuine.</p>
+      </div>
+
+      <div class="letter-wrapper">
+        <article class="envelope-container">
+          <div class="envelope-decor-seal">❤️</div>
+
+          <div class="letter-header">
+            <div class="letter-to">Dearest Sri Pavani,</div>
+            <div class="letter-date">To the most precious person in my world</div>
+          </div>
+
+          <div class="letter-body">
+            <p>
+              I am writing this with a very heavy and regretful heart. I know that I have made you suffer a lot, and there is no excuse in this world that can justify the hurt, distress, or sadness I brought upon you.
+            </p>
+
+            <div class="letter-highlight-box">
+              "You deserved gentle care, endless patience, and pure happiness, yet my foolishness and carelessness caused you pain and tears. For that, I am truly, deeply sorry from the bottom of my soul."
+            </div>
+
+            <p>
+              You have always had a heart of pure gold, and knowing that I was the reason behind your stress and heavy thoughts hurts more than words can ever describe. I never, ever wanted to be the source of your suffering.
+            </p>
+
+            <p>
+              Even mischievous little Shinchan has stopped his silliness and is bowing down on his knees, and all these fluffy teddy bears have gathered here today with one single purpose: <strong>to beg for Sri Pavani's gentle forgiveness</strong> and to heal every piece of hurt I caused.
+            </p>
+
+            <p>
+              I promise you, Sri Pavani, that I will never take you for granted. I want to learn, grow, and treat you with the immense respect, tenderness, and love you deserve every single day.
+            </p>
+          </div>
+
+          <div class="letter-signoff">
+            <div class="valediction">Forever sorry and always wishing for your brightest smile,</div>
+            <div class="signature">Yours Truly ❤️</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SHINCHAN & TEDDY'S APOLOGY MISSIONS
+         ==================================================================== -->
+    <section class="content-section">
+      <div class="section-header">
+        <span class="section-tag">Operation Smile Again</span>
+        <h2 class="section-title">Shinchan & Teddy's Apology Squad</h2>
+        <p class="section-desc">We mobilized the ultimate rescue mission to bring warmth back into Sri Pavani's heart.</p>
+      </div>
+
+      <div class="mission-grid">
+        <!-- Card 1: Shinchan Dogeza -->
+        <div class="mission-card">
+          <div class="mission-icon-box">
+            <img src="assets/shinchan-dogeza.svg" alt="Shinchan Bowing Low">
+          </div>
+          <h3 class="mission-card-title">Ultimate 90° Bow</h3>
+          <p class="mission-card-text">
+            Shinchan is touching his forehead to the floor! The deepest, most sincere apology in Japanese tradition just for Sri Pavani!
+          </p>
+        </div>
+
+        <!-- Card 2: Crying Teddy -->
+        <div class="mission-card">
+          <div class="mission-icon-box">
+            <img src="assets/teddy-crying.svg" alt="Teddy Crying">
+          </div>
+          <h3 class="mission-card-title">Teddy's Heartache</h3>
+          <p class="mission-card-text">
+            Teddy couldn't bear to see Sri Pavani suffer. Look at his bandaged heart and puppy tears — he won't stop crying until you smile!
+          </p>
+        </div>
+
+        <!-- Card 3: Shinchan Crying -->
+        <div class="mission-card">
+          <div class="mission-icon-box">
+            <img src="assets/shinchan-crying.svg" alt="Shinchan Wailing">
+          </div>
+          <h3 class="mission-card-title">Shinchan's Waterfall Tears</h3>
+          <p class="mission-card-text">
+            Waaaaah! Even Action Kamen cannot console Shinchan until Sri Pavani forgives this silly mistake!
+          </p>
+        </div>
+
+        <!-- Card 4: Teddy Flower Peace Offering -->
+        <div class="mission-card">
+          <div class="mission-icon-box">
+            <img src="assets/teddy-flower.svg" alt="Teddy with Flowers">
+          </div>
+          <h3 class="mission-card-title">Bouquet of Peace</h3>
+          <p class="mission-card-text">
+            Freshly picked roses of sincerity and tenderness to replace all your stress with sweet fragrance and joy.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         5 SINCERE PROMISES SECTION
+         ==================================================================== -->
+    <section id="promises-section" class="content-section">
+      <div class="section-header">
+        <span class="section-tag">No Empty Words</span>
+        <h2 class="section-title">5 Sincere Promises to Sri Pavani</h2>
+        <p class="section-desc">Click on any promise to seal it with a sparkle! ✨</p>
+      </div>
+
+      <div class="promises-container">
+        <!-- Promise 1 -->
+        <div class="promise-item" onclick="togglePromise(this)">
+          <div class="promise-num">1</div>
+          <div class="promise-content">
+            <div class="promise-title">I Promise to Value Your Feelings Above Everything</div>
+            <div class="promise-desc">Whenever you speak or share how you feel, I will listen attentively with my whole heart and never dismiss your emotions.</div>
+          </div>
+          <div class="promise-check">✔</div>
+        </div>
+
+        <!-- Promise 2 -->
+        <div class="promise-item" onclick="togglePromise(this)">
+          <div class="promise-num">2</div>
+          <div class="promise-content">
+            <div class="promise-title">I Promise You Will Never Suffer Alone</div>
+            <div class="promise-desc">I will never be the reason for your tears again, and I will stand by your side to wipe away any distress life throws at you.</div>
+          </div>
+          <div class="promise-check">✔</div>
+        </div>
+
+        <!-- Promise 3 -->
+        <div class="promise-item" onclick="togglePromise(this)">
+          <div class="promise-num">3</div>
+          <div class="promise-content">
+            <div class="promise-title">I Promise to Be More Patient and Understanding</div>
+            <div class="promise-desc">No more hasty reactions or careless words. Only gentleness, calmness, and understanding.</div>
+          </div>
+          <div class="promise-check">✔</div>
+        </div>
+
+        <!-- Promise 4 -->
+        <div class="promise-item" onclick="togglePromise(this)">
+          <div class="promise-num">4</div>
+          <div class="promise-content">
+            <div class="promise-title">I Promise to Protect Sri Pavani's Precious Smile</div>
+            <div class="promise-desc">Your happiness is a treasure. I will do everything in my power to keep your days bright and joyful.</div>
+          </div>
+          <div class="promise-check">✔</div>
+        </div>
+
+        <!-- Promise 5 -->
+        <div class="promise-item" onclick="togglePromise(this)">
+          <div class="promise-num">5</div>
+          <div class="promise-content">
+            <div class="promise-title">I Promise to Prove This With Genuine Action</div>
+            <div class="promise-desc">Not just on this website, but consistently through my behavior, care, and dedication every single day.</div>
+          </div>
+          <div class="promise-check">✔</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         VIRTUAL TEDDY BEAR HUG MACHINE
+         ==================================================================== -->
+    <section id="hug-section" class="content-section">
+      <div class="section-header">
+        <span class="section-tag">Instant Comfort</span>
+        <h2 class="section-title">The Sri Pavani Hug Dispenser 🧸</h2>
+        <p class="section-desc">Whenever you feel tired, hurt, or upset, press this button for unlimited cozy hugs!</p>
+      </div>
+
+      <div class="hug-machine-card">
+        <div class="hug-display">
+          <img src="assets/teddy-hug.svg" alt="Teddy Hug Arms Wide">
+        </div>
+
+        <div id="hug-counter" class="hug-counter-badge">
+          0 Hugs Delivered to Sri Pavani! 🧸
+        </div>
+
+        <div>
+          <button class="hug-btn" onclick="sendTeddyHug(event)">
+            <span>🧸 Press For A Big Warm Bear Hug! 💖</span>
+          </button>
+        </div>
+
+        <div id="hug-message" class="hug-message-box">
+          Click the button above to receive endless cuddles and love!
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         REASONS SRI PAVANI DESERVES THE WORLD
+         ==================================================================== -->
+    <section class="content-section">
+      <div class="section-header">
+        <span class="section-tag">Pure Truth</span>
+        <h2 class="section-title">Why Sri Pavani Deserves The World</h2>
+        <p class="section-desc">Click on any bubble below to reveal what makes you so irreplaceable!</p>
+      </div>
+
+      <div class="bubbles-wall">
+        <div class="cute-bubble" onclick="popBubble(this)">
+          <span>💖 Your Kind & Pure Soul</span>
+        </div>
+        <div class="cute-bubble" onclick="popBubble(this)">
+          <span>✨ Your Smile That Lights Up Everything</span>
+        </div>
+        <div class="cute-bubble" onclick="popBubble(this)">
+          <span>🧸 Your Sweet & Caring Nature</span>
+        </div>
+        <div class="cute-bubble" onclick="popBubble(this)">
+          <span>🌸 How You Make Hard Days Feel Peaceful</span>
+        </div>
+        <div class="cute-bubble" onclick="popBubble(this)">
+          <span>🌟 The Most Beautiful Person Inside & Out</span>
+        </div>
+        <div class="cute-bubble" onclick="popBubble(this)">
+          <span>🥰 You Deserve Nothing Less Than 100% Happiness</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         THE FORGIVENESS DECISION ARENA
+         ==================================================================== -->
+    <section id="forgive-section" class="content-section">
+      <div class="forgive-box">
+        <div class="forgive-character-peek">
+          <img src="assets/shinchan-sorry.svg" alt="Shinchan Pleading">
+        </div>
+
+        <h2 class="forgive-title">Sri Pavani, Can You Forgive Me? 🥺👉👈</h2>
+        <p class="forgive-sub">
+          Teddy bear and Shinchan are holding their breath waiting for your answer...
+        </p>
+
+        <div class="decision-actions">
+          <button id="btn-yes" class="btn-yes" onclick="acceptForgiveness()">
+            YES, I Forgive You! ❤️
+          </button>
+          
+          <button id="btn-no" class="btn-no" onmouseover="dodgeNoButton(event)" onclick="dodgeNoButton(event)">
+            No, Not Yet 😤
+          </button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ====================================================================
+       CELEBRATION MODAL (Triggers when YES is clicked)
+       ==================================================================== -->
+  <div id="celebration-modal" class="modal-overlay">
+    <div class="celebration-modal">
+      <div class="celeb-img-duo">
+        <img src="assets/shinchan-happy.svg" alt="Shinchan Dancing">
+        <img src="assets/teddy-flower.svg" alt="Teddy Bear Celebration">
+      </div>
+
+      <h3 class="celeb-title">THANK YOU, SRI PAVANI! 🎉❤️</h3>
+      <p class="celeb-text">
+        You have the sweetest, biggest, and most forgiving heart in the universe! Shinchan is dancing with joy, the teddy bears are cheering, and I promise with all my heart to never make you suffer again!
+      </p>
+
+      <button class="celeb-close-btn" onclick="closeModal()">
+        Seal With A Hug & Smile 🧸✨
+      </button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-quote">
+      "For Sri Pavani — May your days be filled with endless smiles, soft teddy hugs, and zero tears."
+    </div>
+    <div class="footer-sub">
+      Crafted with immense love, sincere regret, and forever devotion. ❤️
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

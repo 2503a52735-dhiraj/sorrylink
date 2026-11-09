@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE0BD"/>
+      <stop offset="100%" stop-color="#FED0A8"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF416C"/>
+      <stop offset="100%" stop-color="#E50914"/>
+    </linearGradient>
+    <linearGradient id="shorts" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF200"/>
+      <stop offset="100%" stop-color="#FFD700"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Shadow on floor -->
+  <ellipse cx="170" cy="215" rx="140" ry="16" fill="#000000" opacity="0.12"/>
+
+  <!-- Feet sticking out at back -->
+  <ellipse cx="270" cy="190" rx="16" ry="10" fill="#FFEC3D" stroke="#333" stroke-width="3"/>
+  <ellipse cx="295" cy="185" rx="16" ry="10" fill="#FFEC3D" stroke="#333" stroke-width="3"/>
+
+  <!-- Shorts / cute arched back -->
+  <path d="M220 130 Q270 140 270 175 Q260 200 215 195 Z" fill="url(#shorts)" stroke="#333" stroke-width="3.5"/>
+
+  <!-- Red Shirt Body lying flat in deep bow -->
+  <path d="M140 130 Q225 120 225 180 L140 190 Z" fill="url(#shirt)" stroke="#333" stroke-width="3.5"/>
+
+  <!-- Arms outstretched on ground flat (Dogeza posture) -->
+  <path d="M145 160 L90 195 L60 200" stroke="#E50914" stroke-width="18" stroke-linecap="round"/>
+  <!-- Hands on floor -->
+  <circle cx="60" cy="200" r="11" fill="#FFE0BD" stroke="#333" stroke-width="2.5"/>
+  <circle cx="85" cy="205" r="11" fill="#FFE0BD" stroke="#333" stroke-width="2.5"/>
+
+  <!-- Head bowed low to floor looking up apologetically -->
+  <path d="M70 110 Q120 70 160 110 Q165 150 140 175 Q90 185 70 150 Z" fill="#1A1A1A"/>
+  <path d="M80 120 Q120 85 155 120 Q160 155 135 175 Q95 180 80 150 Z" fill="url(#skin)" stroke="#333" stroke-width="3"/>
+
+  <!-- Big round puppy eye looking up -->
+  <ellipse cx="115" cy="135" rx="12" ry="15" fill="#1A1A1A"/>
+  <circle cx="112" cy="130" r="5" fill="#FFFFFF"/>
+  <circle cx="118" cy="140" r="2.5" fill="#FFFFFF"/>
+
+  <!-- Drooped eyebrow -->
+  <path d="M100 120 Q118 112 130 122" fill="#1A1A1A" stroke="#1A1A1A" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Teardrop on floor -->
+  <path d="M60 165 C60 172 54 180 54 180 C54 180 48 172 48 165 C48 160 52 158 54 158 C56 158 60 160 60 165 Z" fill="#64B5F6" opacity="0.9"/>
+
+  <!-- Cute speech bubble / banner -->
+  <g transform="translate(15, 20)">
+    <rect x="0" y="0" width="310" height="42" rx="20" fill="#FFFFFF" stroke="#FF4081" stroke-width="2"/>
+    <text x="155" y="27" font-family="'Comic Sans MS', cursive, sans-serif" font-weight="bold" font-size="14" fill="#E50914" text-anchor="middle">
+      "Sincere Bowing Apology to Sri Pavani! 🙇‍♂️"
+    </text>
+  </g>
+</svg>
+

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 320" width="100%" height="100%">
+  <defs>
+    <radialGradient id="teddy-body" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#E2A76F"/>
+      <stop offset="70%" stop-color="#C68642"/>
+      <stop offset="100%" stop-color="#A56326"/>
+    </radialGradient>
+    <radialGradient id="teddy-snout" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#FFF2E2"/>
+      <stop offset="100%" stop-color="#F3DCBE"/>
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="170" cy="300" rx="90" ry="14" fill="#000000" opacity="0.12"/>
+
+  <!-- Feet -->
+  <ellipse cx="115" cy="275" rx="30" ry="20" fill="url(#teddy-body)" stroke="#8D4C13" stroke-width="2.5"/>
+  <ellipse cx="115" cy="275" rx="18" ry="12" fill="#F3DCBE"/>
+  <ellipse cx="225" cy="275" rx="30" ry="20" fill="url(#teddy-body)" stroke="#8D4C13" stroke-width="2.5"/>
+  <ellipse cx="225" cy="275" rx="18" ry="12" fill="#F3DCBE"/>
+
+  <!-- Big Hug Arms Wide Open -->
+  <!-- Left open arm -->
+  <path d="M125 180 C70 160 20 180 35 220 C45 235 75 220 120 205 Z" fill="url(#teddy-body)" stroke="#8D4C13" stroke-width="2.5"/>
+  <ellipse cx="40" cy="215" rx="14" ry="16" fill="#F3DCBE"/>
+
+  <!-- Right open arm -->
+  <path d="M215 180 C270 160 320 180 305 220 C295 235 265 220 220 205 Z" fill="url(#teddy-body)" stroke="#8D4C13" stroke-width="2.5"/>
+  <ellipse cx="300" cy="215" rx="14" ry="16" fill="#F3DCBE"/>
+
+  <!-- Body -->
+  <ellipse cx="170" cy="205" rx="70" ry="65" fill="url(#teddy-body)" stroke="#8D4C13" stroke-width="2.5"/>
+  <ellipse cx="170" cy="210" rx="42" ry="40" fill="#F3DCBE" opacity="0.85"/>
+
+  <!-- Ears -->
+  <circle cx="110" cy="75" r="28" fill="url(#teddy-body)" stroke="#8D4C13" stroke-width="2.5"/>
+  <circle cx="110" cy="75" r="16" fill="#F3DCBE"/>
+  <circle cx="230" cy="75" r="28" fill="url(#teddy-body)" stroke="#8D4C13" stroke-width="2.5"/>
+  <circle cx="230" cy="75" r="16" fill="#F3DCBE"/>
+
+  <!-- Head -->
+  <circle cx="170" cy="110" r="62" fill="url(#teddy-body)" stroke="#8D4C13" stroke-width="2.5"/>
+
+  <!-- Snout -->
+  <ellipse cx="170" cy="125" rx="28" ry="22" fill="url(#teddy-snout)"/>
+  <path d="M160 115 Q170 110 180 115 Q170 128 160 115 Z" fill="#5D3A1A"/>
+  <path d="M170 122 L170 130" stroke="#5D3A1A" stroke-width="2.5"/>
+  <path d="M160 130 Q170 138 180 130" fill="none" stroke="#5D3A1A" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Eyes Happy squint / smiling ^ ^ -->
+  <path d="M138 104 Q146 95 154 104" fill="none" stroke="#2E1C0C" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M186 104 Q194 95 202 104" fill="none" stroke="#2E1C0C" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- Blushing cheeks -->
+  <ellipse cx="132" cy="120" rx="10" ry="6" fill="#FF80AB" opacity="0.6"/>
+  <ellipse cx="208" cy="120" rx="10" ry="6" fill="#FF80AB" opacity="0.6"/>
+
+  <!-- Hearts popping from head -->
+  <path d="M170 25 C170 18 178 12 184 18 C190 12 198 18 198 25 C198 35 184 43 184 43 C184 43 170 35 170 25 Z" fill="#FF4081"/>
+</svg>
+
